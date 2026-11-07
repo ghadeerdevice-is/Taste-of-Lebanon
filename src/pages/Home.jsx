@@ -10,8 +10,8 @@ export default function Home({ items, loading, setPage }) {
       <section className="home-hero">
         <div className="container home-hero-inner">
           <div className="home-hero-text">
-            <div className="eyebrow mb-2">Authentic Lebanese Dining — Every Day</div>
-            <h1 className="font-display fw-semibold mb-3">The Flavor of Tradition</h1>
+            
+            <h1 className="font-display  ">The Flavor of Tradition</h1>
             <p className="mb-4">
               Experience the true taste of Lebanon in every bite.
             </p>
@@ -20,41 +20,13 @@ export default function Home({ items, loading, setPage }) {
             </a>
           </div>
           <div className="home-hero-image">
-            <img src="/Pictures/R.png" alt="Cedar of Lebanon" />
+            <img src="/Pictures/lebanon_flag_transparent.png" alt="Cedar of Lebanon" />
           </div>
         </div>
         
       </section>
 
-      {/* About strip */}
-      <section className="home-about">
-        <div className="container">
-          <div className="row g-4">
-            <div className="col-12 col-md-4">
-              <div className="feature-block">
-                <i className="fa-solid fa-utensils"></i>
-                <h3 className="font-display">Authentic Lebanese Grill</h3>
-                <p>Where fresh ingredients meet the smoky flavor of traditional lebanese grilling</p>
-              </div>
-            </div>
-            <div className="col-12 col-md-4">
-              <div className="feature-block">
-                <i className="fa-solid fa-seedling"></i>
-                <h3 className="font-display">Freshness First</h3>
-                <p>Quality starts with fresh ingredients and ends with unforgettable Lebanese flavors</p>
-              </div>
-            </div>
-            <div className="col-12 col-md-4">
-              <div className="feature-block">
-                <i className="fa-solid fa-users"></i>
-                <h3 className="font-display">Gather Around</h3>
-                <p>Authentic Lebanese dishes made to be shared with the people you love.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+     
       {/* Popular picks preview */}
       <section className="home-popular">
         <div className="container">

@@ -28,8 +28,7 @@ export default function Menu({ items, loading, cart, addToCart, inc, dec }) {
         <div className="container">
           <div className="eyebrow mb-2">Full Menu</div>
           <h1 className="font-display fw-semibold mb-2">Take a Seat & Explore</h1>
-          <p className="mb-3">Browse by category or search for something specific.</p>
-
+          
           <div className="search-wrap menu-search">
             <i className="fa-solid fa-magnifying-glass"></i>
             <input

@@ -3,8 +3,8 @@
   --ink-soft:   #3A4658;
   --cream:      #FFFFFF;
   --cream-2:    #FFFFFF;
-  --amber:      #E4D5B4;
-  --amber-deep: #C97F1E;
+  --amber:     #ED1C24;
+  --amber-deep: #ED1C24;
   --sage:       #7C9885;
   --card-bg:    #FFFFFF;
   --page-bg:    var(--cream);
@@ -12,7 +12,7 @@
   --text-muted: #6B7280;
   --border-soft: rgba(27,36,48,0.08);
   --shadow: 0 10px 30px -12px rgba(27,36,48,0.18);
-  --cedar:#03A552
+  --cedar:#ED1C24
 }
 [data-bs-theme="dark"] {
   --ink:        #F4EFE4;
@@ -100,8 +100,8 @@ body {
 }
 .search-wrap input:focus {
   outline: none;
-  border-color: var(--amber);
-  box-shadow: 0 0 0 3px rgba(232,163,61,.18);
+  border-color: var(--cedar);
+  box-shadow:var(--cedar) ;
 }
 .search-wrap i {
   position: absolute; left: .9rem; top: 50%; transform: translateY(-50%);
@@ -307,7 +307,7 @@ body {
 }
 .tag-chip.spicy { background: rgba(214,90,60,.12); color: #D65A3C; border-color: rgba(214,90,60,.3); }
 .tag-chip.hot { background: rgba(214,90,60,.12); color: #D65A3C; border-color: rgba(214,90,60,.3); }
-.tag-chip.popular { background: rgba(232,163,61,.15); color: var(--amber-deep); border-color: rgba(232,163,61,.4); }
+.tag-chip.popular { background: rgba(232,163,61,.15); color:#E3963E; border-color: rgba(232,163,61,.4); }
 .tag-chip.hot { background: rgba(214,90,60,.12); color: #D65A3C; border-color: rgba(214,90,60,.3); }
 .item-body { padding: 1rem 1.1rem 1.1rem; display: flex; flex-direction: column; gap: .5rem; flex: 1; }
 .item-name { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.08rem; margin: 0; }
