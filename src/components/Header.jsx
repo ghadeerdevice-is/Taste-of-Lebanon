@@ -17,7 +17,7 @@ export default function Header({ theme, setTheme, cartCount, onOpenCart, page, s
       <div className="container py-3">
         <div className="d-flex align-items-center header-row">
         
-            <img src="/Pictures/lebanon_flag_transparent.png" alt="cedar tree" className="brand-mark" />
+            <img src={import.meta.env.BASE_URL + "Pictures/lebanon_flag_transparent.png"} alt="cedar tree" className="brand-mark" />
              <div className="flex-grow-1 min-w-0">
             <div className=" font-display">Taste of Lebanon</div>
             <div className="brand-sub">The Art of Lebanese Dining</div>

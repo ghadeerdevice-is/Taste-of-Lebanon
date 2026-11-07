@@ -1,36 +1,34 @@
-/* ---------------- Data (simulated fetch) ---------------- */
-/* Images live in /public/Pictures, so Vite serves them at the root URL —
-   reference them as plain path strings instead of importing them. */
-const grape = "/Pictures/grape (1).jpg";
-const kebbeh = "/Pictures/kebbeh.jpg";
-const roll = "/Pictures/roll.jpg";
-const tabole = "/Pictures/tabole.jpg";
-const battata = "/Pictures/battata (1).jpg";
-const ganou = "/Pictures/ganou.jpg";
-const hummus = "/Pictures/hummus.jpg";
-const mashewe = "/Pictures/mashewe.jpg";
-const shawrmaBeef = "/Pictures/shawrma beaf.jpg";
-const shawrma = "/Pictures/shawrma.jpg";
-const chicken = "/Pictures/chicken.jpg";
-const meat = "/Pictures/steak1.jpg";
-const falefel = "/Pictures/falefel.jpg";
-const burger = "/Pictures/burger.jpg";
-const fish = "/Pictures/fish.jpg";
-const ice = "/Pictures/ice.jpg";
-const knefeh = "/Pictures/knefeh.jpg";
-const baklava = "/Pictures/baklava.jpg";
-const tea = "/Pictures/tea.jpg";
-const coffee = "/Pictures/coffee.jpg";
-const pepsi="/Pictures/pepsi.jpg";
-const miranda="/Pictures/mirinda.jpg";
-const sevenup="/Pictures/7 up (1).jpg";
-const naye="/Pictures/nay (1).jpg";
-const atayef="/Pictures/atayef (1).jpg";
-const wings="/Pictures/wings.jpg";
-const crispy="/Pictures/crispy.jpg";
-const shrimps="/Pictures/shrimps.jpg";
-const ayran="/Pictures/Ayran.jpg";
+const P = import.meta.env.BASE_URL + "Pictures/";
 
+const grape = P + "grape (1).jpg";
+const kebbeh = P + "kebbeh.jpg";
+const roll = P + "roll.jpg";
+const tabole = P + "tabole.jpg";
+const battata = P + "battata (1).jpg";
+const ganou = P + "ganou.jpg";
+const hummus = P + "hummus.jpg";
+const mashewe = P + "mashewe.jpg";
+const shawrmaBeef = P + "shawrma beaf.jpg";
+const shawrma = P + "shawrma.jpg";
+const chicken = P + "chicken.jpg";
+const meat = P + "steak1.jpg";
+const falefel = P + "falefel.jpg";
+const burger = P + "burger.jpg";
+const fish = P + "fish.jpg";
+const ice = P + "ice.jpg";
+const knefeh = P + "knefeh.jpg";
+const baklava = P + "baklava.jpg";
+const tea = P + "tea.jpg";
+const coffee = P + "coffee.jpg";
+const pepsi = P + "pepsi.jpg";
+const miranda = P + "mirinda.jpg";
+const sevenup = P + "7 up (1).jpg";
+const naye = P + "nay (1).jpg";
+const atayef = P + "atayef (1).jpg";
+const wings = P + "wings.jpg";
+const crispy = P + "crispy.jpg";
+const shrimps = P + "shrimps.jpg";
+const ayran = P + "Ayran.jpg";
 export const MENU_DATA = [
   { id: 1, category: "Starters", name: "Warak Enab", price: 7,
     desc: "The dish typically consists of tender grape leaves wrapped around a filling of rice & herbs.",

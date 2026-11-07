@@ -20,7 +20,7 @@ export default function Home({ items, loading, setPage }) {
             </a>
           </div>
           <div className="home-hero-image">
-            <img src="/Pictures/lebanon_flag_transparent.png" alt="Cedar of Lebanon" />
+            <img src={import.meta.env.BASE_URL + "Pictures/lebanon_flag_transparent.png"} alt="cedar tree" className="brand-mark" />
           </div>
         </div>
         
